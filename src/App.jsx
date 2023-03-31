@@ -40,7 +40,7 @@ function App() {
             Para isso, contamos com uma equipe altamente qualificada e experientes no ramo, 
             além de trabalharmos apenas com produtos de alta qualidade, 
             o que garante o conforto e segurança aos clientes.</p>
-            <div className='imghistoria'>
+            <div>
             <img src='./public/img/img-historia.jpg' />
             </div>
         </div>

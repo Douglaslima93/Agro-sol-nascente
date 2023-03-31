@@ -47,6 +47,7 @@ margin-left: 20px;
 }
 
 .parceiros h2 {
+  font-size: 40px;
   text-align: center;
   padding: 20px;
 }
@@ -68,17 +69,27 @@ margin-left: 20px;
 }
 
 .historia {
-  display: flex;
   padding: 50px;
 }
 
 .historia h2{
-  font-size: 20px;
+  font-size: 40px;
   font-weight: bold;
   text-align: center;
 }
 
 .historia p {
-  font-size: 15px;
-  text-align: left;
+  margin-top: 50px;
+  font-size: 20px;
+  text-align: justify;
+  font-weight: bold;
 }
+
+.historia img {
+  margin-top: 50px;
+  display: block;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
