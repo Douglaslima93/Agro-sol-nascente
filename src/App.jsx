@@ -11,25 +11,38 @@ function App() {
 
       <div className='main'>
 
-        <div>Logo</div>
-
         <header className='menu'>
 
+        <div className='logo'><img src='./public/img/logo-sol.jpg'/></div>
+
         <ul>
-          <li><a href='#Inicio'>Inicio</a></li>
+          <li><a href='#Inicio'>Ínicio</a></li>
           <li><a href='#Quem Somos'>Quem Somos</a></li>
           <li><a href='#Serviços'>Serviços</a></li>
           <li><a href='#Contato'>Contato</a></li>
         </ul>
         </header>
 
-        <div>
-          Conheça alguns de nossos parceiros
+        <div className='parceiros'>
+          <h2>Conheça alguns de nossos parceiros:</h2>
+          <div className='img'>
+            <img src='./public/img/Golden.jpg' alt='Golden'/>
+            <img src='./public/img/Magnus.png' alt='Magnus'/>
+            <img src='./public/img/special-dog.png' alt='special-dog'/>
+          </div>
         </div>
 
-        <div>
+        <div className='historia'>
           <h2>Quem Somos</h2>
-          <p>Historia</p>
+          <p>Há mais de 20 anos no mercado buscando sempre a inovação , 
+            o objetivo profissional da Agropecuária Sol Nascente é ser parceira em 
+            realizações ou mais uma opção na execução de serviços de qualidade sempre visando o melhor atendimento.
+            Para isso, contamos com uma equipe altamente qualificada e experientes no ramo, 
+            além de trabalharmos apenas com produtos de alta qualidade, 
+            o que garante o conforto e segurança aos clientes.</p>
+            <div className='imghistoria'>
+            <img src='./public/img/img-historia.jpg' />
+            </div>
         </div>
 
         <div>
