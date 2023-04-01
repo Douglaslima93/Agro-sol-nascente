@@ -2,6 +2,9 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import 'bootstrap/dist/css/bootstrap.css';
+import Carousel from 'react-bootstrap/Carousel';
+import React from 'react';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -26,9 +29,17 @@ function App() {
         <div className='parceiros'>
           <h2>Conheça alguns de nossos parceiros:</h2>
           <div className='img'>
-            <img src='./public/img/Golden.jpg' alt='Golden'/>
-            <img src='./public/img/Magnus.png' alt='Magnus'/>
-            <img src='./public/img/special-dog.png' alt='special-dog'/>
+            <Carousel fade>
+              <Carousel.Item>
+            <img className='d-block w-100' src='./public/img/Golden.jpg' alt='Golden'/>
+            </Carousel.Item>
+            <Carousel.Item>
+            <img className='d-block w-100' src='./public/img/Magnus.png' alt='Magnus'/>
+            </Carousel.Item>
+            <Carousel.Item>
+            <img className='d-block w-100' src='./public/img/special-dog.png' alt='special-dog'/>
+            </Carousel.Item>
+            </Carousel>
           </div>
         </div>
 
