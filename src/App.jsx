@@ -29,17 +29,11 @@ function App() {
         <div className='parceiros'>
           <h2>Conheça alguns de nossos parceiros:</h2>
           <div className='img'>
-            <Carousel fade>
-              <Carousel.Item>
-            <img className='d-block w-100' src='./public/img/Golden.jpg' alt='Golden'/>
-            </Carousel.Item>
-            <Carousel.Item>
-            <img className='d-block w-100' src='./public/img/Magnus.png' alt='Magnus'/>
-            </Carousel.Item>
-            <Carousel.Item>
-            <img className='d-block w-100' src='./public/img/special-dog.png' alt='special-dog'/>
-            </Carousel.Item>
-            </Carousel>
+            
+            <img  src='./public/img/Golden.jpg' alt='Golden'/>          
+            <img  src='./public/img/Magnus.png' alt='Magnus'/>
+            <img  src='./public/img/special-dog.png' alt='special-dog'/>
+            
           </div>
         </div>
 
@@ -52,7 +46,23 @@ function App() {
             além de trabalharmos apenas com produtos de alta qualidade, 
             o que garante o conforto e segurança aos clientes.</p>
             <div>
-            <img src='./public/img/img-historia.jpg' />
+              <Carousel fade>
+                <Carousel.Item >
+            <img  src='./public/img/img-historia.jpg' />
+                </Carousel.Item>
+
+                <Carousel.Item>
+            <img  src='./public/img/img-historia2.jpg' />
+                </Carousel.Item>
+
+                <Carousel.Item>
+            <img  src='./public/img/img-historia3.jpg' />
+                </Carousel.Item>
+
+                <Carousel.Item>
+            <img  src='./public/img/img-historia4.jpg' />
+                </Carousel.Item>
+              </Carousel>
             </div>
         </div>
 
