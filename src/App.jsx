@@ -5,6 +5,7 @@ import './App.css'
 import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
 import React from 'react';
+import Form from './Components/Form';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -47,37 +48,63 @@ function App() {
             o que garante o conforto e segurança aos clientes.</p>
             <div>
               <Carousel fade>
-                <Carousel.Item >
+                <Carousel.Item interval={1500}>
             <img  src='./public/img/img-historia.jpg' />
                 </Carousel.Item>
 
-                <Carousel.Item>
+                <Carousel.Item interval={1500}>
             <img  src='./public/img/img-historia2.jpg' />
                 </Carousel.Item>
 
-                <Carousel.Item>
+                <Carousel.Item interval={1500}>
             <img  src='./public/img/img-historia3.jpg' />
                 </Carousel.Item>
 
-                <Carousel.Item>
+                <Carousel.Item interval={1500}>
             <img  src='./public/img/img-historia4.jpg' />
                 </Carousel.Item>
               </Carousel>
             </div>
         </div>
 
-        <div>
+        <div className='serviços'>
           <h2>Nossos Serviços</h2>
-          <p>Texto</p>
+          <p>A Agropecuária Sol Nascente possui uma equipe de profissionais, altamente qualificada e preparada para 
+            atender com eficácia e dedicação e acima de tudo com o objetivo de sempre superar as expectativas de cada cliente. 
+            Trabalha com rações e medicamentos para diversos animais, produtos para piscina e pesca, venda de peixes e 
+            aquários, gaiolas. 
+          </p>
+
+          <Carousel fade>
+            <Carousel.Item interval={1500}>
+              <img className='d-block w-100' src='./public/img/racao.jpg' alt='Ração'/>
+            </Carousel.Item>
+
+            <Carousel.Item interval={1500}>
+              <img className='d-block w-100' src='./public/img/farmacia.jpg' alt='Farmacia'/>
+            </Carousel.Item>
+
+            <Carousel.Item interval={1500}>
+              <img className='d-block w-100' src='./public/img/piscina.png' alt='Piscina'/>
+            </Carousel.Item>
+
+            <Carousel.Item interval={1500}>
+              <img className='d-block w-100' src='./public/img/pesca.png' alt='Pesca'/>
+            </Carousel.Item>
+
+            <Carousel.Item interval={1500}>
+              <img className='d-block w-100' src='./public/img/aquario.png' alt='Aquario'/>
+            </Carousel.Item>
+
+            <Carousel.Item interval={1500}>
+              <img className='d-block w-100' src='./public/img/gaiolas.png' alt='Gaiolas'/>
+            </Carousel.Item>
+
+          </Carousel>
         </div>
 
         <div>
-          <h2>Entre em Contato</h2>
-          <p>Nome</p>
-          <p>E-mail</p>
-          <p>Assunto</p>
-          <p>Mensagem</p>
-          <button>Enviar</button>
+          <Form/>
         </div>
 
       </div>

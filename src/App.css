@@ -92,3 +92,40 @@ margin-left: 20px;
   margin-left: auto;
   margin-right: auto;
 }
+
+.serviços{
+  padding: 50px;
+}
+
+.serviços h2{
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.serviços p {
+  margin-top: 50px;
+  font-size: 20px;
+  text-align: justify;
+  font-weight: bold;
+}
+
+.serviços img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  max-width: 500px;
+  padding: 30px;
+  border-radius: 50px;
+}
+
+.contato h2{
+  font-size: 40px;
+  padding: 20px;
+}
+
+.formulario {
+  font-size: 30px;
+  padding: 20px;
+}
