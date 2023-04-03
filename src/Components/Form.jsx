@@ -1,7 +1,7 @@
 function Form () {
     function Contato (e) {
-        e.presentDefault()
-        window.alert('Em breve entraremos em contato')
+        e.preventDefault()
+        window.alert('Obrigado, Em breve entraremos em contato.')
     }
     return (
         <div className="contato">
@@ -21,7 +21,7 @@ function Form () {
                     <label for='Mensagem'>Mensagem:</label><br/>
                     <input id="mensagem" type="text"/><br/>
                     <br/>
-                    <input type="submit" value='Enviar'/>
+                    <input id="submit" type="submit" value='Enviar'/>
 
                 </div>
             </form>

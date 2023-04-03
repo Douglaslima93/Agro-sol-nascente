@@ -120,12 +120,64 @@ margin-left: 20px;
   border-radius: 50px;
 }
 
+.contato {
+  width: 100%;
+}
+
 .contato h2{
   font-size: 40px;
   padding: 20px;
+  font-weight: bold;
 }
 
 .formulario {
-  font-size: 30px;
+  font-size: 15px;
   padding: 20px;
+}
+
+.formulario label {
+  display: inline-block;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.formulario input {
+  width: 60%;
+  padding: 5px;
+  border: 1px black solid;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#submit {
+  background-color: red ;
+  display: block;
+ 
+}
+
+.endereço {
+  width: 100%;
+  padding: 100px;
+}
+
+.endereço h2 {
+  font-size: 30px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.endereço p {
+  font-size: 20px;
+  text-align: left;
+  padding: 5px;
+  
+}
+
+.form-maps {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ 
 }

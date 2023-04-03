@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
 import React from 'react';
 import Form from './Components/Form';
+import Maps from './Components/Maps';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -103,8 +104,10 @@ function App() {
           </Carousel>
         </div>
 
-        <div>
+        <div className='form-maps'>
+          <Maps/>
           <Form/>
+          
         </div>
 
       </div>
