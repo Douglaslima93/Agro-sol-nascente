@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
@@ -21,7 +20,7 @@ function App() {
 
         <header className='menu'>
 
-        <div className='logo'><img src='./public/img/logo-sol.jpg'/></div>
+        <div className='logo'><img src='../public/img/logo-sol.jpg'/></div>
 
         <ul>
           <li><a href='#inicio' id='inicio'>Ínicio</a></li>
@@ -35,9 +34,9 @@ function App() {
           <h2>Conheça alguns de nossos parceiros:</h2>
           <div className='img'>
             
-            <img  src='./public/img/Golden.jpg' alt='Golden'/>          
-            <img  src='./public/img/Magnus.png' alt='Magnus'/>
-            <img  src='./public/img/special-dog.png' alt='special-dog'/>
+            <img  src='../public/img/Golden.jpg' alt='Golden'/>          
+            <img  src='../public/img/Magnus.png' alt='Magnus'/>
+            <img  src='../public/img/special-dog.png' alt='special-dog'/>
             
           </div>
         </div>
@@ -53,19 +52,19 @@ function App() {
             <div>
               <Carousel fade>
                 <Carousel.Item interval={1500}>
-            <img  src='./public/img/img-historia.jpg' />
+            <img  src='../public/img/img-historia.jpg' />
                 </Carousel.Item>
 
                 <Carousel.Item interval={1500}>
-            <img  src='./public/img/img-historia2.jpg' />
+            <img  src='../public/img/img-historia2.jpg' />
                 </Carousel.Item>
 
                 <Carousel.Item interval={1500}>
-            <img  src='./public/img/img-historia3.jpg' />
+            <img  src='../public/img/img-historia3.jpg' />
                 </Carousel.Item>
 
                 <Carousel.Item interval={1500}>
-            <img  src='./public/img/img-historia4.jpg' />
+            <img  src='../public/img/img-historia4.jpg' />
                 </Carousel.Item>
               </Carousel>
             </div>
@@ -81,27 +80,27 @@ function App() {
 
           <Carousel fade>
             <Carousel.Item interval={1500}>
-              <img className='d-block w-100' src='./public/img/racao.jpg' alt='Ração'/>
+              <img className='d-block w-100' src='../public/img/racao.jpg' alt='Ração'/>
             </Carousel.Item>
 
             <Carousel.Item interval={1500}>
-              <img className='d-block w-100' src='./public/img/farmacia.jpg' alt='Farmacia'/>
+              <img className='d-block w-100' src='../public/img/farmacia.jpg' alt='Farmacia'/>
             </Carousel.Item>
 
             <Carousel.Item interval={1500}>
-              <img className='d-block w-100' src='./public/img/piscina.png' alt='Piscina'/>
+              <img className='d-block w-100' src='../public/img/piscina.png' alt='Piscina'/>
             </Carousel.Item>
 
             <Carousel.Item interval={1500}>
-              <img className='d-block w-100' src='./public/img/pesca.png' alt='Pesca'/>
+              <img className='d-block w-100' src='../public/img/pesca.png' alt='Pesca'/>
             </Carousel.Item>
 
             <Carousel.Item interval={1500}>
-              <img className='d-block w-100' src='./public/img/aquario.png' alt='Aquario'/>
+              <img className='d-block w-100' src='../public/img/aquario.png' alt='Aquario'/>
             </Carousel.Item>
 
             <Carousel.Item interval={1500}>
-              <img className='d-block w-100' src='./public/img/gaiolas.png' alt='Gaiolas'/>
+              <img className='d-block w-100' src='../public/img/gaiolas.png' alt='Gaiolas'/>
             </Carousel.Item>
 
           </Carousel>
