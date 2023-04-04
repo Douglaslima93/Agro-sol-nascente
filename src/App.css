@@ -9,6 +9,7 @@
   padding: 0;
 }
 
+/* Inicio Menu*/
 .menu {
 display: flex;
 flex-direction: row;
@@ -44,8 +45,15 @@ margin-left: 20px;
   text-decoration: none;
   color: black;
   margin-right: 30px;
+  
 }
 
+.menu :hover{
+  color: brown;
+}
+/* Fim Menu*/
+
+/* Inicio Parceiros*/
 .parceiros h2 {
   font-size: 40px;
   text-align: center;
@@ -67,7 +75,9 @@ margin-left: 20px;
   justify-content: space-around;
   padding: 10px;
 }
+/* Fim Parceiros*/
 
+/* Inicio Historia*/
 .historia {
   padding: 50px;
 }
@@ -92,7 +102,9 @@ margin-left: 20px;
   margin-left: auto;
   margin-right: auto;
 }
+/* Fim Historia*/
 
+/* Inicio Serviços*/
 .serviços{
   padding: 50px;
 }
@@ -119,7 +131,9 @@ margin-left: 20px;
   padding: 30px;
   border-radius: 50px;
 }
+/* Fim Serviços*/
 
+/* Inicio Contato*/
 .contato {
   width: 100%;
 }
@@ -129,7 +143,9 @@ margin-left: 20px;
   padding: 20px;
   font-weight: bold;
 }
+/* Fim Contato*/
 
+/* Inicio Formulario*/
 .formulario {
   font-size: 15px;
   padding: 20px;
@@ -151,11 +167,13 @@ margin-left: 20px;
 }
 
 #submit {
-  background-color: red ;
+  background-color: brown ;
   display: block;
- 
+  font-weight: bold;
 }
+/* Fim Formulario*/
 
+/* Inicio Endereço*/
 .endereço {
   width: 100%;
   padding: 100px;
@@ -171,6 +189,13 @@ margin-left: 20px;
   font-size: 20px;
   text-align: left;
   padding: 5px;
+  cursor: pointer;
+}
+
+.endereço a {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
   
 }
 
@@ -181,7 +206,10 @@ margin-left: 20px;
   align-items: center;
  
 }
+/* Fim Endereço*/
 
+
+/* Inicio Footer*/
 .footer p {
   font-size: 20px;
   color: black;
@@ -198,3 +226,22 @@ margin-left: 20px;
   gap: 50px;
   padding: 20px;
 }
+
+.inicio a{
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  background: brown;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  margin: 0 auto 20px auto;
+  width: 100px;
+  border-radius: 25px;
+}
+
+.inicio :hover {
+  color: white;
+}
+/* Fim Footer*/

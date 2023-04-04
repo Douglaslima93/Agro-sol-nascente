@@ -6,10 +6,10 @@ function Maps () {
             <p>Avenida Brasil, 2023 - Centro, Boituva - SP</p>
 
             <h2>E-mail</h2>
-            <p>agro_solnascente@gmail.com</p>
+            <p><a href="mailto:agro_solnascente@gmail.com">agro_solnascente@gmail.com</a></p>
 
             <h2>Telefone</h2>
-            <p>15 99601-9090</p>
+            <p><a href="tel:+5515996019090">15 99601-9090</a></p>
         </div>
     )
 }

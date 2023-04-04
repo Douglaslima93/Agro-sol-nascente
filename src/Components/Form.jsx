@@ -5,7 +5,7 @@ function Form () {
     }
     return (
         <div className="contato">
-            <h2>Entre em Contato</h2>
+            <h2 id="contato">Entre em Contato</h2>
             <form onSubmit={Contato}>
 
                 <div className='formulario'>

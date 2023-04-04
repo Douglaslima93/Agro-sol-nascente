@@ -24,10 +24,10 @@ function App() {
         <div className='logo'><img src='./public/img/logo-sol.jpg'/></div>
 
         <ul>
-          <li><a href='#Inicio'>Ínicio</a></li>
-          <li><a href='#Quem Somos'>Quem Somos</a></li>
-          <li><a href='#Serviços'>Serviços</a></li>
-          <li><a href='#Contato'>Contato</a></li>
+          <li><a href='#inicio' id='inicio'>Ínicio</a></li>
+          <li><a href='#historia'>Quem Somos</a></li>
+          <li><a href='#servicos'>Serviços</a></li>
+          <li><a href='#contato'>Contato</a></li>
         </ul>
         </header>
 
@@ -43,7 +43,7 @@ function App() {
         </div>
 
         <div className='historia'>
-          <h2>Quem Somos</h2>
+          <h2 id='historia'>Quem Somos</h2>
           <p>Há mais de 20 anos no mercado buscando sempre a inovação , 
             o objetivo profissional da Agropecuária Sol Nascente é ser parceira em 
             realizações ou mais uma opção na execução de serviços de qualidade sempre visando o melhor atendimento.
@@ -72,7 +72,7 @@ function App() {
         </div>
 
         <div className='serviços'>
-          <h2>Nossos Serviços</h2>
+          <h2 id='servicos'>Nossos Serviços</h2>
           <p>A Agropecuária Sol Nascente possui uma equipe de profissionais, altamente qualificada e preparada para 
             atender com eficácia e dedicação e acima de tudo com o objetivo de sempre superar as expectativas de cada cliente. 
             Trabalha com rações e medicamentos para diversos animais, produtos para piscina e pesca, venda de peixes e 

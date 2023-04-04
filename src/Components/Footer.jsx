@@ -12,6 +12,9 @@ function Footer() {
         <a href='https://api.whatsapp.com/send?phone=+5515996013651>'><img src='./public/img/whatsapp.png' alt='whatsapp'/></a>
             
             </div>
+            <div className="inicio">
+            <a href="#inicio">Inicio</a>
+            </div>
             </footer>
         </div>
     )
