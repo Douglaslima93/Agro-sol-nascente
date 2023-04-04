@@ -181,3 +181,20 @@ margin-left: 20px;
   align-items: center;
  
 }
+
+.footer p {
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.icons {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px;
+}
