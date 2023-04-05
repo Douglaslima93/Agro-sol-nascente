@@ -2,7 +2,7 @@
 
 ## Web site, de uma agropecuaria. Com esse projeto pude aprimorar mais um pouco sobre React e aprendi a utilizar o conceito de componentes. O que são: Componentes são um dos conceitos centrais do React. Eles são a base sobre a qual você constrói interfaces de usuario (UI), o que os torna o lugar perfeito para começar sua jornada React.
 
-## Tecnologia: React.
+## Tecnologia:  <img align="center" alt="React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
 
 ## ![imagem1](https://user-images.githubusercontent.com/121909515/230102842-a67c447b-0da6-4b0d-a902-6e7f482445fc.png)
 ## ![imagem2](https://user-images.githubusercontent.com/121909515/230102880-b486e73d-8ef9-496d-b3cc-9acb5e7876d2.png)
