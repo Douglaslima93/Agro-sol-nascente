@@ -97,7 +97,7 @@ margin-left: 20px;
 }
 
 .historia img {
-  max-width: 400px;
+  max-width: 300px;
   margin-top: 50px;
   display: block;
   border-radius: 20px;
@@ -251,10 +251,18 @@ margin-left: 20px;
 /* Inicio Responsivo*/
 
 @media only screen and (max-device-width: 500px) {
-  .menu  {
+  .menu ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 5px;
+    }
+
+    .logo img {
+      margin: 10px;
+      border-radius: 5px;
+      width: 150%;
+      
     }
 
     .parceiros img {

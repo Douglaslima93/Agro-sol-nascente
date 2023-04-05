@@ -8,8 +8,6 @@ import Form from './Components/Form';
 import Maps from './Components/Maps';
 import Footer from './Components/Footer';
 
-
-
 function App() {
   const [count, setCount] = useState(0)
 
@@ -17,16 +15,17 @@ function App() {
     <div className="App">
 
       <div className='main'>
-
-        <header className='menu'>
-
+      
+        <header id='itens' className='menu'>
+      
         <div className='logo'><img src='./img/logo-sol.jpg'/></div>
-
         <ul>
+        
           <li><a href='#inicio' id='inicio'>Ínicio</a></li>
           <li><a href='#historia'>Quem Somos</a></li>
           <li><a href='#servicos'>Serviços</a></li>
           <li><a href='#contato'>Contato</a></li>
+          
         </ul>
         </header>
 
